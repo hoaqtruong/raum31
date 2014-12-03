@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+/*Awesome fonts*/
+
+
+.top-bar{
+	background: #f9f9f9;
+	position: relative;
+	z-index: 100;
+	padding: 8px 0;
+	margin: 4px 0 0 0;
+	border-bottom: solid 1px #ededed;
+}
+
+.top-bar span{
+	float:left;
+	font-size:14px;
+	color:#c1c1c1;
+}
+.top-bar span i{
+	font-size: 26px;
+	margin: -3px 8px 0 0;
+	float: left;
+}
+.top-bar .social{
+	float:right;
+}
+.top-bar .social a{
+	color:#c1c1c1;
+	font-size: 16px;
+	margin: 0 0 0 14px;
+}
+.top-bar .social a.tw:hover{
+	color:#2aa9e0;
+}
+.top-bar .social a.fb:hover{
+	color:#204385;
+}
+.top-bar .social a.yt:hover{
+	color:#eb2429;
+}
+.top-bar .social a.ig:hover{
+	color:#02669a;
+}
+.top-bar .social a.db:hover{
+	color:#f11aa8;
+}
+.fixed-header .navbar-default {
+position: fixed;
+}
+.services-sec{ margin-top:0px;}
+.experience h2{
+	margin:0px;
+}
+.experience .scrn{
+	margin:35px 0 0 0;
+}
+.fun-facts{
+	background:#fbfbfb;
+	border-top:solid 1px #eeeeee;
+	padding:48px 0 !important;
+}
+.fun-facts .count{
+color: #fff;
+width: 72px;
+margin: 0 20px 0 0;
+
+text-align: center;
+padding: 5px;
+font-size: 50px;
+border-radius: 4px;
+-web-border-radius: 4px;
+-moz-border-radius: 4px;
+float: left;
+}
+.fun-facts .count.yellow{
+	background: #f6c715;
+}
+.fun-facts .count.red{
+	background: #e11e24;
+}
+.fun-facts .count.green{
+	background: #bed431;
+}
+.fun-facts .count.blue{
+	background: #5ecae6;
+}
+.fun-facts span{
+	font-size:48px;
+	font-family: 'BebasRegular';
+	margin:-10px 0 0 0;
+}
+.fun-facts p{
+	font-size:18px;
+	margin:-10px 0 0 0;
+}
+.tables{ margin:0px; }
+
+
+
+
+

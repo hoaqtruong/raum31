@@ -1,0 +1,168 @@
+@charset "utf-8";
+body{
+  background:#111111;
+}
+p{
+  color:#cccccc;
+}
+span{
+  color:#cccccc;
+}	
+.navbar-default {
+  background-color: #1D1D1D;
+  opacity: .9;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #C4C4C4;
+}
+
+.parallax-main-banner {
+  background: url("../images/parallax-banner-dark.jpg") repeat;
+}
+
+.tabs-btn {
+  /* background: url("../images/black.png");*/
+  background:none;
+}
+
+.gray-bg {
+  background-color: #222222;
+}
+.services-sec p{
+  color:#CCCCCC;
+
+}
+.services-sec h3{
+  color:#CCCCCC;
+
+}
+.experience {
+  background:#0C0C0C;
+  color:#CCCCCC;
+
+}
+.experience span{
+  color:#CCCCCC !important;
+
+}	
+.piecharts .overlay, .page-builder-bg-overlay {
+  background: url("../images/black.png") repeat scroll 0 0;
+}	
+
+.team{
+  background:#111111;
+}
+.team span{
+  color:#CCCCCC !important;
+}
+
+.tables .overlay, .our-clients .overlay {
+  background: url("../images/black.png") repeat scroll 0 0;
+}
+.table span{
+  color:#fff;
+}
+.table.yellow-table .price span{
+  color: #f6c815 ;
+}
+.table.green-table .price span{
+  color: #bed431 ;
+}
+.table.red-table .price span{
+  color: #e21e25 ;
+}
+.table.blue-table .price span{
+  color: #09a0ad ;
+}
+.portfolio span{
+  color:#cccccc;
+}
+#filters ul li a{
+  color: #cccccc;
+}
+#filters ul li a.active h3 {
+  color: #e21e25;
+}
+#filters ul li a:hover h3, #filters ul li a.active h3 {
+  color: #e21e25;
+
+}	
+.best-sellers span{
+  color:#cccccc;
+}
+.product-desc h4, .product-desc h4 a {
+  color: #cccccc;
+}
+.product-desc p {
+  color: #cccccc;
+}
+.our-clients h2{
+  color:#cccccc;
+}
+.our-clients span{
+  color:#a9a9a9 !important;
+}
+.carousel-indicators li span b {
+  color: #cccccc;
+}
+.our-clients p{
+  color:#333333;
+}
+h1.orange span{
+  color:#cccccc;
+}
+.contact-us label {
+  color: #cccccc;
+}
+p.copyright{
+  color: #959595 !important;
+}
+.border {
+  border-bottom: 1px solid #363636;
+}
+.our-clients {
+  border-top: 1px solid #363636;
+  border-bottom: 1px solid #363636;
+}
+input[type=text] {
+  background:#414141;
+  border:solid 1px #292929;
+  color:#cccccc;
+}
+textarea {
+  background:#414141;
+  border:solid 1px #292929;
+  color:#cccccc;
+}
+.services-sec span.green i, .services-sec span.yellow i, .services-sec span.red i, .services-sec span.blue i, .services-sec span.purple i{box-shadow:0 0 0 0 #BED431; -moz-box-shadow:0 0 0 0 #BED431; -webkit-box-shadow:0 0 0 0 #BED431;}
+.tabs-btn ul li p span{ color:#fff}
+
+.back-to-top {
+  background:#4E4E4E;
+}
+.carousel-inner {
+  background: #525252;
+  border: 1px solid #6B6B6B;
+}
+.testimonial .fa-quote-left, .testimonial .fa-quote-right {
+  color: #3C3C3C;
+}
+.carousel-indicators .active {
+  background:url(../images/testi-pointer-dark.png) no-repeat 30px 0;
+}
+.testimonial .fa-quote-left, .testimonial .fa-quote-right, .our-clients p {
+  color: #CCCCCC;
+}
+.social li a {border: 2px solid #959595;}
+.main-navigation ul.menu ul li{
+  background-color: #1d1d1d;
+  border-bottom: 1px solid #4f4f4f;
+  opacity: 0.9;
+}
+.fixed-header .navbar-default{
+  border-bottom: 0 none;
+}
+
+
+

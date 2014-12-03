@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the rockox_team feature.
+ */
+
+include_once 'rockox_team.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the best_sellers feature.
+ */
+
+include_once 'best_sellers.features.inc';

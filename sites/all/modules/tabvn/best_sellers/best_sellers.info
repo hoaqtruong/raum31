@@ -1,0 +1,12 @@
+name = best_sellers
+description = Create best sellers block on front page, base on Ubercart.
+core = 7.x
+package = Tabvn
+version = 7.x-1.0
+project = best_sellers
+dependencies[] = views
+dependencies[] = views_bs
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = best_sellers
+features_exclude[dependencies][ctools] = ctools

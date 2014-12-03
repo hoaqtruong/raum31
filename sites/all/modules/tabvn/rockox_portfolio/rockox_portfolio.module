@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the rockox_portfolio feature.
+ */
+
+include_once 'rockox_portfolio.features.inc';

@@ -1,0 +1,43 @@
+name = RockOx
+description = RockOx Powerful Drupal 7 theme. Developed by <a href="http://tabvn.com">Tabvn.com</a>.
+core = 7.x
+
+stylesheets[all][] = css/font-awesome.css
+stylesheets[all][] = css/custom.css
+stylesheets[all][] = css/animate.css
+stylesheets[all][] = css/pie-charts-style.css
+stylesheets[all][] = css/skin.css
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/magnific-popup.css
+stylesheets[all][] = css/rockox.css
+
+scripts[] = js/waypoints.js
+scripts[] = js/jquery.easypiechart.min.js
+scripts[] = js/nimble.js
+scripts[] = js/scrollspy.js
+scripts[] = js/jquery.appear.js
+scripts[] = js/bootstrap.min.js
+scripts[] = js/wow.js
+scripts[] = js/jquery.magnific-popup.min.js
+scripts[] = js/jquery.jcarousel.min.js
+scripts[] = js/jquery.easing.1.3.min.js
+scripts[] = js/rockox.js
+
+
+regions[sidebar_first]  = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[main_navigation] = Main navigation
+regions[custom_breadcrumb] = Custom breadcrumb
+regions[content] = Content
+regions[footer] = Footer
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[page_top] = Page Top
+regions[page_bottom] = Page Bottom
+
+settings[use_default_breadcrumb] = 1
+settings[rockox_tooltip_enabled] = 1
+settings[rockox_tooltip_descriptions] = 1
+settings[theme_color] = #FF4800
+settings[toggle_node_user_picture] = 0
+settings[use_dark_theme] = 0
