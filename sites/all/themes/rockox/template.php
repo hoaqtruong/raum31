@@ -1,5 +1,17 @@
 <?php
 
+//* CUSTOM FUNCTION <-- HOA
+
+
+//*
+// Implement hook_js_alter
+// Given that jquery-1.8.3.min.js is located in sites/all/themes/rockxo/js/'
+// Given that different admin theme is used to avoid conflict with Drupal core
+//*
+
+//
+
+//********* FROM ROCKXO TABVN
 //$content_column_size_class
 
 function rockox_process_page(&$variables) {
