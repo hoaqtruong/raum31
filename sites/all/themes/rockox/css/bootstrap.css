@@ -459,11 +459,7 @@ h1,
 }
 h2,
 .h2 {
-    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
-    text-align: center;
-    padding-top: 30px;
-  font-size: 30px;
-  margin: 0 0 40px;
+    margin: 0 0 40px;
 }
 h3,
 .h3 {

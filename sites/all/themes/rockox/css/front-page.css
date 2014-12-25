@@ -1,0 +1,10 @@
+/**
+* These rule apply only to <front> or /home page ~hoa
+**/
+
+.front h2, .front .h2 {
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}

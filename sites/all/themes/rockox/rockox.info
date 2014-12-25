@@ -10,6 +10,7 @@ stylesheets[all][] = css/skin.css
 stylesheets[all][] = css/bootstrap.css
 stylesheets[all][] = css/magnific-popup.css
 stylesheets[all][] = css/rockox.css
+stylesheets[all][] = css/front-page.css
 
 scripts[] = js/waypoints.js
 scripts[] = js/jquery.easypiechart.min.js
