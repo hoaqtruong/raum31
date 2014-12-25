@@ -8,3 +8,9 @@
     padding-top: 30px;
     font-size: 30px;
 }
+.front .frontslider-slogan p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 745px;
+}
