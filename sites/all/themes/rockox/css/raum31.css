@@ -1,4 +1,5 @@
 /**
+*
 * These rule apply only to <front> or /home page ~hoa
 **/
 .front h2, .front .h2,
@@ -48,3 +49,53 @@
 }
 
 
+/**
+*
+* TABLE id=PREISE
+*
+**/
+
+#preise {
+    padding: 0;
+    margin: 0;
+}
+
+#preise caption {
+    padding: 0 0 5px 0;
+    font: italic 1.2rem Arial,Helvetica Neue,Helvetica,sans-serif;
+    text-align: right;
+}
+
+#preise th {
+    font: bold 1rem Arial,Helvetica Neue,Helvetica,sans-serif;
+    color: #4f6b72;
+    border-bottom: 1px solid #c1dad7;
+    border-top: 1px solid #C1DAD7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 6px 6px 6px 12px;
+}
+
+#preise th[scope=col] {
+    background-color: rgba(186, 185, 160, 0.50);
+    text-align: center;
+}
+tr:nth-child(odd) {
+    background: #FFF
+}
+#preise tr:nth-child(even) {
+    background: #f6f9e5
+}
+
+#preise td {
+
+    font: 1.1rem Arial,Helvetica Neue,Helvetica,sans-serif;
+    color: #4f6b72;
+    border-bottom: 1px solid #C1DAD7;
+    border-top: 1px solid #C1DAD7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: right;
+    padding: 6px 6px 6px 12px;
+}
