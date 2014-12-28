@@ -1,3 +1,9 @@
+
+/**
+*
+* These rule apply only to MENU of <front> or /home page ~hoa
+**/
+
 /**
 *
 * These rule apply only to <front> or /home page ~hoa
@@ -13,10 +19,15 @@
     font-size: 35px;
     color: #428BCA;
 }
-
+.centered870px-txt{
+    width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .front .text-center  h3, .front .tri-sec .h3 {
     padding-top: 20px;
     font-size: 20px;
+
 }
 
 .front .infrastruktur-sec span.green img {
@@ -51,23 +62,49 @@
 
 /**
 *
+* Veranstaltungen Sektion
+*
+**/
+
+
+.front .views-field-field-veranstaltungen-datum .field-content,
+.front .views-field-field-veranstaltungen-kosten .field-content {
+    display: inline;
+    padding-left: 60px;
+
+}
+
+
+.front .views-field-field-veranstaltungen-datum .views-label,
+.front .views-field-field-veranstaltungen-kosten .views-label,
+.front .views-field-field-veranstaltungen-info .views-label{
+    font-weight: bold;
+}
+
+/**
+*
 * TABLE id=PREISE
 *
 **/
 
 #preise {
-    padding: 0;
-    margin: 0;
-}
 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    font-size: 1.2rem;
+}
+#preisetabelle-caption{
+
+}
 #preise caption {
     padding: 0 0 5px 0;
-    font: italic 1.2rem Arial,Helvetica Neue,Helvetica,sans-serif;
+    font: italic Arial,Helvetica Neue,Helvetica,sans-serif;
     text-align: right;
 }
 
 #preise th {
-    font: bold 1rem Arial,Helvetica Neue,Helvetica,sans-serif;
+    font: bold 1.2rem bold Arial,Helvetica Neue,Helvetica,sans-serif;
     color: #4f6b72;
     border-bottom: 1px solid #c1dad7;
     border-top: 1px solid #C1DAD7;
@@ -90,7 +127,7 @@ tr:nth-child(odd) {
 
 #preise td {
 
-    font: 1.1rem Arial,Helvetica Neue,Helvetica,sans-serif;
+    font: 1.5rem Arial,Helvetica Neue,Helvetica,sans-serif;
     color: #4f6b72;
     border-bottom: 1px solid #C1DAD7;
     border-top: 1px solid #C1DAD7;
@@ -98,4 +135,26 @@ tr:nth-child(odd) {
     text-transform: uppercase;
     text-align: right;
     padding: 6px 6px 6px 12px;
+}
+
+/**
+*
+* Kontakt section on <front>
+*
+**/
+
+#kontaktContainter {
+    width: 430px;
+    margin-left: auto;
+    margin-right:auto;
+    overflow: hidden;
+
+}
+ #adresseCol {
+   float: left;
+     text-align: right;
+}
+#kontaktCol {
+   float: right;
+    text-align: left;
 }
