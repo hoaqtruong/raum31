@@ -104,6 +104,75 @@
     font-family: "Open Sans",sans-serif;
 }
 
+/** ============== SECTION VERANSTALTUNGEN ========================== **/
+
+.isotope-item img {
+    display: block;
+    vertical-align: middle;
+    width: 175px;
+    height: 175px;
+    background: none repeat scroll 0% 0% #60CAE8;
+    box-shadow: 0px 0px 0px 3px #60CAE8;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+/**    transition: all 1100ms ease 0s; **/
+    visibility: visible;
+
+
+}
+
+.views-field-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: darkred;
+
+}
+.views-field-field-veranstaltungensurl div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+/** ======================= KONTAKT ========================= **/
+
+#kontakt h2 {
+    padding-left:100px;
+}
+.map-title {
+    background-color: darkred;
+}
+#kontaktContainter {
+    padding-left: 70px;
+    width: 500px;
+    margin-left: auto;
+    margin-right:auto;
+    overflow: hidden;
+}
+
+#adresseCol {
+    float: left;
+    text-align: right;
+}
+#kontaktCol {
+    float: right;
+    text-align: left;
+}
+
+/** ======================= KONTAKT ========================= **/
+#links ul {
+    width: 400px;
+    display: block ;
+    margin-left: auto  ;
+    margin-right: auto;
+}
+
+
 /**
 *
 * These rule apply only to <front> or /home page ~hoa
@@ -208,26 +277,4 @@ tr:nth-child(odd) {
     text-transform: uppercase;
     text-align: right;
     padding: 6px 6px 6px 12px;
-}
-
-/**
-*
-* Kontakt section on <front>
-*
-**/
-
-#kontaktContainter {
-    width: 430px;
-    margin-left: auto;
-    margin-right:auto;
-    overflow: hidden;
-
-}
- #adresseCol {
-   float: left;
-     text-align: right;
-}
-#kontaktCol {
-   float: right;
-    text-align: left;
 }
