@@ -8,8 +8,26 @@
 }
 /**
 *
+.front section#home h2 a { color: #60cae8; }
+ .front div#node-11 a { color: #bed431; } 
+.front section#impressionen h2 { color: #e21e25; }
+.front section#preise h2 a { color: #f6c815 !important;}
+.front section#veranstaltungen h2 a { color: #c6c6c6; }
+.front section#kontakt h2 a { color: #7251a2; }
 * These rule apply only to MENU of <front> or /home page ~hoa
 **/
+#home h2 a { color: #60cae8;  }
+#nutzungsmöglichkeiten h2 a{  color:#BED431 ;  }
+#impressionen h2{  color:#E21E25 ;  }
+#preisetabelle h2 a {  color:#F6C815 ;  }
+/** veranstaltungen should be as the same color #c6c6c6
+as "veranstalungen" item of main menu.
+but the color is too weak for a title,
+therefore I leave it in darkgray instead"
+#veranstaltungen h2 a{ color: #c6c6c6; } */
+#kontakt h2 a{ color: #7251a2; }
+
+
 
 /**
 *
@@ -27,7 +45,6 @@ body.front {
 .front h2, .front .h2 {
     padding-top: 30px;
     font-size: 35px;
-    color: #428BCA;
 }
 .centered870px-txt{
     width: 870px;
