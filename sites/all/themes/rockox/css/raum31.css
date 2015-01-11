@@ -6,28 +6,103 @@
         url('../fonts/IstokWeb-BoldItalic.ttf') format('truetype'),
         url('../fonts/IstokWeb-Bold.ttf') format('truetype');
 }
-/**
-*
-.front section#home h2 a { color: #60cae8; }
- .front div#node-11 a { color: #bed431; } 
-.front section#impressionen h2 { color: #e21e25; }
-.front section#preise h2 a { color: #f6c815 !important;}
-.front section#veranstaltungen h2 a { color: #c6c6c6; }
-.front section#kontakt h2 a { color: #7251a2; }
-* These rule apply only to MENU of <front> or /home page ~hoa
-**/
-#home h2 a { color: #60cae8;  }
+
+
+/** ============== MAIN MENU ========================== **/
+
+.navbar-default .main-navigation .menu > li > a {
+    font-weight: 900;
+    font-size: 120%;
+
+}
+
+/** overwriten menu home tab with bordeux, original rockxo: #60cae8 **/
+
+.main-navigation .menu > li:nth-child(1) > a {
+    border-top: 4px solid #5F021F;
+}
+
+.main-navigation .menu > li:nth-child(1) > a,
+.main-navigation .menu > li:nth-child(1) > a:visited {
+    color: #777;
+}
+.main-navigation .menu > li:nth-child(1) > a:hover,
+.main-navigation .menu > li:nth-child(1) > a:active {
+   color :  #5F021F;
+
+}
+
+
+/** overwriten menu veranstaltungen tab with #60cae8 (light ocean blue), original rockox: #c6c6c6 **/
+
+.main-navigation .menu > li:nth-child(5) > a {
+    border-top: 4px solid #60cae8;
+}
+
+.main-navigation .menu > li:nth-child(5) > a,
+.main-navigation .menu > li:nth-child(5) > a:visited {
+    color: #777;
+}
+.main-navigation .menu > li:nth-child(5) > a:hover,
+.main-navigation .menu > li:nth-child(5) > a:active {
+    color :  #60cae8;
+
+}
+/** ============== TITLES OF SECTIONS ========================== **/
+
+
+
 #nutzungsmöglichkeiten h2 a{  color:#BED431 ;  }
 #impressionen h2{  color:#E21E25 ;  }
 #preisetabelle h2 a {  color:#F6C815 ;  }
-/** veranstaltungen should be as the same color #c6c6c6
-as "veranstalungen" item of main menu.
-but the color is too weak for a title,
-therefore I leave it in darkgray instead"
-#veranstaltungen h2 a{ color: #c6c6c6; } */
+#veranstaltungen h2 { color: #60cae8; }
 #kontakt h2 a{ color: #7251a2; }
 
 
+/** ============== SECTION HOME ========================== **/
+#home h2 a {color: #5F021F; }
+#home p {
+    font-size: 17px;
+}
+
+/** ============== SECTION NUTZUNGMOELICKEITEN ========================== **/
+#nutzungsmöglichkeiten p.centered870px-txt {
+    margin-bottom: 26px;
+}
+
+
+/** ============== SECTION INFRASTRUKTUR ========================== **/
+
+
+
+.front .infrastruktur-sec span.green img {
+    background: none repeat scroll 0% 0% #BED431;
+    box-shadow: 0px 0px 0px 2px #BED431;
+    overflow: hidden;
+}
+
+.front .infrastruktur-sec img.open {
+    width: 175px;
+    height: 175px;
+    margin: 30px 0px 0px;
+    transition: all 1000ms ease 0s;
+    transition-property: all;
+    transition-duration: 1000ms;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+.front .infrastruktur-sec h4 {
+    background: url("../images/service-sec-shadow.png") no-repeat scroll center 0px transparent;
+    padding-top: 30px;
+    font-weight: 400;
+    border: 0px none;
+    text-transform: uppercase;
+    margin: 10px 0px 15px;
+    color: #393939;
+    font-family: "Open Sans",sans-serif;
+}
 
 /**
 *
@@ -55,35 +130,6 @@ body.front {
     padding-top: 20px;
     font-size: 20px;
 
-}
-
-.front .infrastruktur-sec span.green img {
-    background: none repeat scroll 0% 0% #BED431;
-    box-shadow: 0px 0px 0px 2px #BED431;
-    overflow: hidden;
-}
-
-.front .infrastruktur-sec img.open {
-    width: 99px;
-    height: 99px;
-    margin: 30px 0px 0px;
-    transition: all 1000ms ease 0s;
-    transition-property: all;
-    transition-duration: 1000ms;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-
-}
-
-.front .infrastruktur-sec h4 {
-    background: url("../images/service-sec-shadow.png") no-repeat scroll center 0px transparent;
-    padding-top: 30px;
-    font-weight: 400;
-    border: 0px none;
-    text-transform: uppercase;
-    margin: 10px 0px 15px;
-    color: #393939;
-    font-family: "Open Sans",sans-serif;
 }
 
 
