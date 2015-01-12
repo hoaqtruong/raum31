@@ -7,12 +7,43 @@
         url('../fonts/IstokWeb-Bold.ttf') format('truetype');
 }
 
+/**
+*
+*  SOME SPECIFIC RULES FOR PAGE RAUM31 FRONT
+**/
+body.front {
+    font-family: "Frutiger", "IstokWeb", Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.front h2, .front .h2,
+.front h3, .front .h3,
+.front h4, .front .h4 {
+    font-family: "Frutiger", "IstokWeb", Arial,Helvetica Neue,Helvetica,sans-serif;
+    text-align: center;
+}
+.front h2, .front .h2 {
+    padding-top: 30px;
+    font-size: 35px;
+}
+.centered870px-txt{
+    width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.front .text-center  h3, .front .tri-sec .h3 {
+    padding-top: 20px;
+    font-size: 20px;
+
+}
 
 /** ============== MAIN MENU ========================== **/
+
+/** too many menu tabs, have to redue the padding of each tabs to fit in **/
+
 
 .navbar-default .main-navigation .menu > li > a {
     font-weight: 900;
     font-size: 120%;
+    padding: 22px 10px 15px 10px;
 
 }
 
@@ -31,6 +62,9 @@
    color :  #5F021F;
 
 }
+/** overwriten the 8th element of the main menu, as in bootsrap.css line 3893: #fe4419 **/
+.main-navigation .menu > li:nth-child(8) > a{ border-top:4px solid #669999;}
+.main-navigation .menu > li:nth-child(8) > a:hover, .main-navigation .menu > li:nth-child(8).active > a{ color:#669999}
 
 
 /** overwriten menu veranstaltungen tab with #60cae8 (light ocean blue), original rockox: #c6c6c6 **/
@@ -52,8 +86,7 @@
 
 
 
-#nutzungsmöglichkeiten h2 a{  color:#BED431 ;  }
-#impressionen h2{  color:#E21E25 ;  }
+
 #preisetabelle h2 a {  color:#F6C815 ;  }
 #veranstaltungen h2 { color: #60cae8; }
 #kontakt h2 a{ color: #7251a2; }
@@ -66,6 +99,7 @@
 }
 
 /** ============== SECTION NUTZUNGMOELICKEITEN ========================== **/
+#nutzungsmöglichkeiten h2 a{  color:#BED431 ;  }
 #nutzungsmöglichkeiten p.centered870px-txt {
     margin-bottom: 26px;
 }
@@ -104,6 +138,10 @@
     font-family: "Open Sans",sans-serif;
 }
 
+/** ============== SECTION IMPRESSIONEN ========================== **/
+
+#impressionen h2{  color:#E21E25 ;  }
+
 /** ============== SECTION VERANSTALTUNGEN ========================== **/
 
 .isotope-item img {
@@ -139,75 +177,6 @@
     margin-bottom: 25px;
 }
 
-/** ======================= KONTAKT ========================= **/
-
-#kontakt h2 {
-    padding-left:100px;
-}
-.map-title {
-    background-color: darkred;
-}
-#kontaktContainter {
-    padding-left: 70px;
-    width: 500px;
-    margin-left: auto;
-    margin-right:auto;
-    overflow: hidden;
-}
-
-#adresseCol {
-    float: left;
-    text-align: right;
-}
-#kontaktCol {
-    float: right;
-    text-align: left;
-}
-
-/** ======================= KONTAKT ========================= **/
-#links ul {
-    width: 400px;
-    display: block ;
-    margin-left: auto  ;
-    margin-right: auto;
-}
-
-
-/**
-*
-* These rule apply only to <front> or /home page ~hoa
-**/
-body.front {
-    font-family: "Frutiger", "IstokWeb", Arial,Helvetica Neue,Helvetica,sans-serif;
-}
-.front h2, .front .h2,
-.front h3, .front .h3,
-.front h4, .front .h4 {
-    font-family: "Frutiger", "IstokWeb", Arial,Helvetica Neue,Helvetica,sans-serif;
-    text-align: center;
-}
-.front h2, .front .h2 {
-    padding-top: 30px;
-    font-size: 35px;
-}
-.centered870px-txt{
-    width: 870px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.front .text-center  h3, .front .tri-sec .h3 {
-    padding-top: 20px;
-    font-size: 20px;
-
-}
-
-
-/**
-*
-* Veranstaltungen Sektion
-*
-**/
-
 
 .front .views-field-field-veranstaltungen-datum .field-content,
 .front .views-field-field-veranstaltungen-kosten .field-content {
@@ -223,11 +192,8 @@ body.front {
     font-weight: bold;
 }
 
-/**
-*
-* TABLE id=PREISE
-*
-**/
+
+/** ======================= SECTION PREISE ========================= **/
 
 #preise {
 
@@ -277,4 +243,105 @@ tr:nth-child(odd) {
     text-transform: uppercase;
     text-align: right;
     padding: 6px 6px 6px 12px;
+}
+
+
+/** ======================= KONTAKT ========================= **/
+
+#kontakt h2 {
+    padding-left:100px;
+}
+.map-title {
+    background-color: darkred;
+}
+#kontaktContainter {
+    padding-left: 70px;
+    width: 500px;
+    margin-left: auto;
+    margin-right:auto;
+    overflow: hidden;
+}
+
+#adresseCol {
+    float: left;
+    text-align: right;
+}
+#kontaktCol {
+    float: right;
+    text-align: left;
+}
+
+
+/** ======================= RESERVATION ========================= **/
+
+#reservation .reservation_webform_rockox_col {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#reservation label[for="edit-submitted-anrede"] {
+    width: 20%;
+
+}
+#edit-submitted-anrede {
+    width: 20%;
+}
+
+
+#reservation h2 a{
+    color: #f11aa8;
+}
+#reservation label[for="edit-submitted-datum"]{
+    width: 20%;
+}
+#reservation div.researvation_datum .webform-datepicker {
+    width: 70%;
+    display: inline-flex;
+
+}
+#reservation div.researvation_datum .webform-datepicker input[type="image"] {
+    width: 45px;
+    height: 45px;
+    margin-top: 9px;
+    margin-left: 10px;
+
+}
+#reservation div.form-item-submitted-datum-month {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#reservation label[for="edit-submitted-gewuenschte-kontaktaufnahme"] {
+    width: 40%;
+}
+
+#edit-submitted-gewuenschte-kontaktaufnahme {
+    width: 50%;
+}
+
+#edit-submitted-gewuenschte-kontaktaufnahme-1,
+#edit-submitted-gewuenschte-kontaktaufnahme-2 {
+    margin: 0;
+    float: none;
+}
+
+#edit-submitted-gewuenschte-kontaktaufnahme label[for="edit-submitted-gewuenschte-kontaktaufnahme-1"],
+#edit-submitted-gewuenschte-kontaktaufnahme label[for="edit-submitted-gewuenschte-kontaktaufnahme-2"]{
+    padding-left: 7px;
+}
+
+
+/** ======================= LINKS ========================= **/
+#links h4 {
+    font-size: 34px;
+    color: #669999;
+    margin-bottom: 30px;
+}
+
+#links table.views-table {
+    width: 40%;
+}
+#links table.views-table td.views-field-field-link-url {
+    font-weight: bold;
 }

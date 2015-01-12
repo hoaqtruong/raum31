@@ -875,3 +875,12 @@ div.messages ul, .alert-block ul{
     margin-left: 20%;
   }
 }
+
+.webform-client-form .webform-component-radios label{
+    display: inline-block;
+    margin-right: 0;
+    width: 20%;
+}
+.webform-client-form .webform-component-radios .form-radios{
+    display: inline-block;
+}
