@@ -307,6 +307,9 @@ tr:nth-child(odd) {
     margin-left: 10px;
 
 }
+#reservation div.researvation_datum .webform-datepicker select {
+    width: 100px;
+}
 #reservation div.form-item-submitted-datum-month {
     padding-left: 15px;
     padding-right: 15px;
