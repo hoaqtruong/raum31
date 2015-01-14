@@ -24,8 +24,8 @@ body.front {
     padding-top: 30px;
     font-size: 35px;
 }
-.centered870px-txt{
-    width: 870px;
+.centered870px-txt {
+    width: 56%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -81,6 +81,10 @@ body.front {
 .main-navigation .menu > li:nth-child(5) > a:active {
     color :  #60cae8;
 
+}
+
+.main-navigation .menu > li > a[href="/#infrastruktur"]:hover {
+    color: #BED431;
 }
 /** ============== TITLES OF SECTIONS ========================== **/
 
@@ -181,7 +185,7 @@ body.front {
 .front .views-field-field-veranstaltungen-datum .field-content,
 .front .views-field-field-veranstaltungen-kosten .field-content {
     display: inline;
-    padding-left: 60px;
+    padding-left: 3.824%;
 
 }
 
@@ -249,13 +253,13 @@ tr:nth-child(odd) {
 /** ======================= KONTAKT ========================= **/
 
 #kontakt h2 {
-    padding-left:100px;
+    padding-left:6.373%;
 }
 .map-title {
     background-color: darkred;
 }
 #kontaktContainter {
-    padding-left: 70px;
+    padding-left: 4.46%;
     width: 500px;
     margin-left: auto;
     margin-right:auto;
@@ -301,7 +305,7 @@ tr:nth-child(odd) {
 
 }
 #reservation div.researvation_datum .webform-datepicker input[type="image"] {
-    width: 45px;
+    width: 52px;
     height: 45px;
     margin-top: 9px;
     margin-left: 10px;
